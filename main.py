@@ -1,5 +1,6 @@
 from options.show_info.show_acc_details import ShowAccountDetails
 from options.tasks import change_pass, deposit, withdraw, password
+import time
 
 def authenticate(account_no, password_input):
     # Using PasswordManager to validate the password
@@ -36,3 +37,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+    time.sleep(7)
