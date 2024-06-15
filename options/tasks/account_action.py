@@ -1,6 +1,6 @@
 import sqlite3
 
-class AccountAction: # This is the parent class (or base class) for all account-related actions.
+class AccountAction: # this is the parent class (or base class) for all account-related actions
     def __init__(self, account_no):
         self.account_no = account_no
 
@@ -13,7 +13,7 @@ class AccountAction: # This is the parent class (or base class) for all account-
         conn = sqlite3.connect('banking_management.db')
         cursor = conn.cursor()
         cursor.execute('SELECT * FROM accounts WHERE account_no = ?', (self.account_no,))
-        account = cursor.fetchone()
+        account = cursor.fetchone() # retrieve one row
         conn.close()
         return account
     
