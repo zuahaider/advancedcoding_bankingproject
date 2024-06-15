@@ -1,7 +1,7 @@
 import sqlite3
 
 class PasswordManager:
-    def __init__(self, account_no):
+    def __init__(self, account_no): # initialize with the given account number 
         self.account_no = account_no
 
     def validate_password(self, password):
