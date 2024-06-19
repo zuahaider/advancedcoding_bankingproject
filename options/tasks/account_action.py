@@ -1,5 +1,6 @@
 import sqlite3
 
+# This is a new comment
 class AccountAction: # this is the parent class (or base class) for all account-related actions
     def __init__(self, account_no):
         self.account_no = account_no
