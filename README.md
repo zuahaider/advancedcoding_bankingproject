@@ -32,14 +32,14 @@ SQLite
 
 Installation
 Clone the repository:
-git clone https://github.com/your_username/banking-system.git
-cd banking-system
+git clone https://github.com/zuahaider/advancedcoding_bankingproject.git
+cd advancedcoding_bankingproject
 
 Install dependencies:
 pip install -r requirements.txt
 
 Create the database tables:
-python banking_system.py
+python create_tables.py
 The system uses SQLite for database operations. Ensure banking_management.db is present and accessible.
 
 ## Usage
