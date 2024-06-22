@@ -36,5 +36,18 @@ def create_tables():
     conn.close()
     print("Tables created successfully and accounts added.")
 
+# inorder to be able to read the database 
+def read_accounts():
+    conn = sqlite3.connect('banking_management.db')
+    cursor = conn.cursor()
+    cursor.execute('SELECT * FROM accounts')
+    accounts = cursor.fetchall()
+
+    for account in accounts:
+        print(account)
+
+
+    conn.close()
 if __name__ == "__main__":
-    create_tables()
+    #create_tables()
+    read_accounts()

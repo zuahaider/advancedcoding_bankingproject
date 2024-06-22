@@ -50,7 +50,7 @@ Follow the prompts to perform actions:
 Enter account number and password to authenticate.
 Select from available actions (C: Change Password, D: Deposit, W: Withdraw, S: Show Account Details, Q: Quit).
 Follow on-screen instructions for each action.
-
+ 
 ## Contact details:
 zuha.haider110@gmail.com
 
