@@ -30,10 +30,12 @@ Prerequisites
 Python 3.x installed on your system.
 SQLite
 
-Installation
+## Installations:
+
 Clone the repository:
-git clone https://github.com/zuahaider/advancedcoding_bankingproject.git
-cd advancedcoding_bankingproject
+   git clone https://github.com/zuahaider/advancedcoding_bankingproject.git
+   cd advancedcoding_bankingproject
+
 
 Install dependencies:
 pip install -r requirements.txt
